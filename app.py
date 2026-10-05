@@ -177,7 +177,6 @@ with st.sidebar:
         st.success("Demo data is ready.")
         st.rerun()
 
-    st.caption("Prototype • Python + Streamlit + SQLite")
 
 # ---------- Dashboard ----------
 if page == "Dashboard":
@@ -394,7 +393,7 @@ elif page == "Inventory":
     """, unsafe_allow_html=True)
 
     add_tab, view_tab, edit_tab = st.tabs([
-        "➕ Add Item", "📦 Current Inventory", "✏️ Edit / Remove"
+        "➕ Add Item", "Current Inventory", "Edit / Remove"
     ])
 
     with add_tab:
